@@ -12,6 +12,7 @@ Bundle 'ctrlpvim/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'vim-scripts/another-dark-scheme'
+Bundle 'airblade/vim-gitgutter'
 
 call vundle#end()
 filetype plugin indent on
