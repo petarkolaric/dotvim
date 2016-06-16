@@ -1,6 +1,10 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
+if !has('gui_running')
+  set t_Co=256
+endif
+
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
@@ -33,6 +37,7 @@ colorscheme anotherdark
 map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
 map <silent> <LocalLeader>p :CtrlP<CR>
 
+source ~/.lightline
 
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 " :PluginInstall    - installs plugins
