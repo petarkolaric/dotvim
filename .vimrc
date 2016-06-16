@@ -13,6 +13,7 @@ Bundle 'mileszs/ack.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'vim-scripts/another-dark-scheme'
 Bundle 'airblade/vim-gitgutter'
+Bundle 'itchyny/lightline.vim'
 
 call vundle#end()
 filetype plugin indent on
