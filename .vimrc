@@ -1,6 +1,8 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
 if !has('gui_running')
   set t_Co=256
 endif
