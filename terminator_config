@@ -1,5 +1,4 @@
 [global_config]
-  tab_position = hidden
 [keybindings]
 [layouts]
   [[default]]
@@ -14,6 +13,6 @@
   [[default]]
     background_image = None
     custom_command = tmux
-    font = InconsolataForPowerline Nerd Font Medium 12
+    font = InconsolataForPowerline Nerd Font Medium 13
     scrollback_infinite = True
     use_system_font = False
