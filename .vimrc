@@ -37,6 +37,7 @@ syntax enable
 colorscheme anotherdark
 
 map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
+map <silent> <LocalLeader>nt :NERDTreeFind<CR>
 map <silent> <LocalLeader>p :CtrlP<CR>
 
 source ~/.lightline
