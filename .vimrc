@@ -38,8 +38,9 @@ syntax enable
 colorscheme anotherdark
 
 map <silent> <LocalLeader>nt :NERDTreeToggle<CR>
-map <silent> <LocalLeader>nt :NERDTreeFind<CR>
+map <silent> <LocalLeader>nf :NERDTreeFind<CR>
 map <silent> <LocalLeader>p :CtrlP<CR>
+cnoreabbrev Ack Ack!
 
 source ~/.lightline
 
