@@ -21,6 +21,7 @@ Bundle 'vim-scripts/another-dark-scheme'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'itchyny/lightline.vim'
 Bundle 'fatih/vim-go'
+Bundle 'rodjek/vim-puppet'
 
 call vundle#end()
 filetype plugin indent on
