@@ -22,6 +22,8 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'itchyny/lightline.vim'
 Bundle 'fatih/vim-go'
 Bundle 'rodjek/vim-puppet'
+Bundle 'ianks/vim-tsx'
+Bundle 'mxw/vim-jsx'
 
 call vundle#end()
 filetype plugin indent on
